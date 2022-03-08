@@ -1,5 +1,7 @@
 body {
-  background-color: turquoise;
+  /* background-color: turquoise; */
+  background-image: url("b1.jpg");
+  background-size: cover;
 }
 
 .head {
@@ -7,6 +9,7 @@ body {
   width: 50%;
   margin: auto;
   font-weight: 900;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #main {
@@ -21,6 +24,9 @@ body {
   padding: 25px;
   border-radius: 50px;
   cursor: pointer;
+  background: #ecf0f3;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 15px #cbced1, -10px -10px 15px white;
   /* display: inline; */
   /* float: left; */
 }
@@ -29,6 +35,10 @@ body {
   padding: 25px;
   border-radius: 50px;
   cursor: pointer;
+  background: #ecf0f3;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 15px #cbced1, -10px -10px 15px white;
+
 
   /* display: inline; */
   /* float: right; */
@@ -48,14 +58,19 @@ body {
   width: 450px;
 }
 .box1 {
-  background-color: cornflowerblue;
+  background-color: rgb(191, 91, 216);
   float: left;
+  box-shadow: 5px 5px grey, 8px 8px rgb(70, 3, 64);
+
   /* top: 300px;
   left: 50px; */
 }
 .box2 {
-  background-color: tomato;
+  background-color: rgb(159, 219, 81);
   float: right;
+  box-shadow: 5px 5px grey, 8px 8px rgb(3, 70, 18);
+
+
   /* top: 300px;
   left: 750px; */
 }
